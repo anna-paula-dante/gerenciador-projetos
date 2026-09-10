@@ -1,0 +1,12 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    gap: 14px;
+  }
+}
