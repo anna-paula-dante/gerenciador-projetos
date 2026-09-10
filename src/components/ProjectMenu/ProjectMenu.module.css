@@ -1,0 +1,30 @@
+.menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: -6px;
+  z-index: 40;
+  min-width: 150px;
+  padding: 5px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-pop);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 9px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 12px;
+  color: var(--color-primary);
+  text-align: left;
+}
+
+.item:hover {
+  background: #f3f1fb;
+}

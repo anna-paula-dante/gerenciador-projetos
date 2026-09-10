@@ -1,0 +1,15 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.link:hover {
+  text-decoration: underline;
+}

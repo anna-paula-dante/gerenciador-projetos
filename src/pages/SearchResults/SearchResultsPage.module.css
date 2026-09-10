@@ -1,0 +1,25 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 16px 24px 40px;
+}
+
+.title {
+  margin: 4px 0 16px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-heading);
+}
+
+.empty {
+  margin: 0;
+  font-size: 12px;
+  color: var(--color-muted);
+}
