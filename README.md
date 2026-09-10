@@ -158,10 +158,10 @@ src/
 | `/`                   | Listagem de projetos       | sim           |
 | `/projects/new`       | Criar projeto              | sim           |
 | `/projects/:id/edit`  | Editar projeto             | sim           |
-| `/search?q=termo`     | Resultado da pesquisa      | não (conforme Figma) |
+| `/search?q=termo`     | Resultado da pesquisa      | não           |
 
-As três primeiras rotas ficam sob uma rota-pai `<Layout>` que renderiza o
-`<Header>`; `/search` fica fora dela e começa direto pela barra de busca branca.
+A rota `/search` não utiliza o header escuro das demais telas; ela inicia
+diretamente pela barra de busca, seguindo a estrutura definida no layout de referência.
 
 ## Principais decisões técnicas
 
