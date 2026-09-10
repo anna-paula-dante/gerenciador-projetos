@@ -177,4 +177,3 @@ As três primeiras rotas ficam sob uma rota-pai `<Layout>` que renderiza o
   devolver o texto original (com acento/caixa) em cada segmento.
 - **Capa em Base64**: sem backend, a imagem é embutida como Data URL, com limite
   de 2 MB para não estourar a cota do `localStorage`.
-```
