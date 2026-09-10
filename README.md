@@ -2,7 +2,7 @@
 
 Aplicação Front-end para gerenciar projetos: criar, editar, remover, favoritar,
 filtrar, ordenar e pesquisar. Toda a persistência é feita no `localStorage`
-(sem backend). O layout reproduz as telas de referência em `./design-reference/`.
+(sem backend). O layout foi desenvolvido com base nas telas de referência fornecidas no Figma.
 
 ## Tecnologias
 
